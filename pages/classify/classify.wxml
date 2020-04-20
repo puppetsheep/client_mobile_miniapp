@@ -3,7 +3,7 @@
     <view slot="content"> 公羊阅读</view>
   </cu-custom>
   <!-- 搜索 -->
- <view class="padding flex flex-direction">
+ <view class="padding flex flex-direction" bindtap="handleGoSearchPage">
   <button class="cu-btn bg-gradual-blue lg">搜 索</button>
 </view>
   <!-- <view class="cu-bar bg-white search fixed" style="top:{{CustomBar}}px;">

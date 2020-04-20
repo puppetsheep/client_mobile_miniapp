@@ -47,6 +47,7 @@
   background: #fff;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 20px;
 }
 
 .hot-item {
@@ -62,6 +63,9 @@
 
 .hist-list {
   background-color: #fff;
+  border-radius: 16px;
+  padding: 0 5px 0 5px;
+
 }
 
 .hist-item {

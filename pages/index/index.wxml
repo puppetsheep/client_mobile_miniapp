@@ -1,5 +1,5 @@
 <scroll-view scroll-y class="scrollPage">
-  <cu-custom bgColor="bg-gradual-black">
+  <cu-custom bgColor="bg-gradual-blue">
     <view slot="content"> 公羊阅读</view>
   </cu-custom>
   <!-- 个人信息 -->
@@ -28,7 +28,7 @@
         <text class="text-grey">书籍总收藏数量：{{novelList.length}} 本</text>
       </view>
       <view class="action">
-        <button class="cu-btn bg-grey shadow" bindtap="handleSetting">编辑</button>
+        <button class="cu-btn bg-cyan shadow" bindtap="handleSetting">编辑</button>
       </view>
     </view>
   </view>
@@ -41,7 +41,7 @@
         <!-- 书本信息 -->
         <view bindtap="handleGoReadPage" data-id="{{item.id}}" data-url="{{item.recent_chapter_url}}" data-bookname="{{item.book_name}}">
           <view class="padding-sm">
-            <view class="bg-gradual-black padding radius text-center shadow-blur">
+            <view class="bg-gradual-blue padding radius text-center shadow-blur">
 
               <view wx:if="{{settingEnable}}" catchtap="handleRemoveNovel" data-id="{{item.id}}">
                 <view class="cu-tag badge">X</view>

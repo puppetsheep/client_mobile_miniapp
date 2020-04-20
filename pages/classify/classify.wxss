@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 78vh;
 }
 
 .search {
@@ -47,7 +47,7 @@
 }
 
 .classify-active {
-  background: #0068c4;
+  background: linear-gradient(45deg, #0081ff, #1cbbb4);
   color: #fff;
 }
 
